@@ -3,14 +3,23 @@ import { aflacLogo, android, angular, cognizantLogo,
      nodejs,
      react, typescript, wellsLogo, wiuLogo, youtube } from "../assets"
 
+import Floranza from '../assets/Floranza.png';
+import Events from '../assets/Events.png';
+import World from '../assets/world1.png';
+import Picture from '../assets/Picture.png';
+import Music from '../assets/Music.png';
+import GenextF from '../assets/genextfactory.jpeg';
+import GenextIt from '../assets/genext_it.jpeg';
+import Odesco from '../assets/odesco.jpeg';
+
+
 export const AppText={
    hello:'Hello,',
    Iam:'I am ',
    RahulSanap:'Mohamed Hamdi',
-   aboutMeDescripion:'I am software developer working in IT industry from  last 6 Years as Full stack developer. Expert in UI/UX design, Front-end  and Back-end Development',
+   aboutMeDescripion:'I am a software developer with two years of experience as a Full-Stack Developer. I am an expert in both front-end and back-end development',
    Skills:'Skills & ',
    Experties:'Experties',
-   UIUXDesigner:'UI/UX Designer',
    BackendDeveloper:'Backend Dev',
    FrontedDeveloper:'Frontend Dev',
    Portfolio:'Portfolio',
@@ -24,12 +33,6 @@ export const AppText={
 }
 
 export const aboutSection=[
-   {
-       id:1,
-       image:'https://img.freepik.com/premium-vector/ui-ux-programmer-flat-design-vector-illustration-business-information-team-sharing-ideas-with-designer-coding-interface-software-app-development_2175-1809.jpg?w=2000',
-       title:'UI/UX Designer',
-       desc:'Expert in UI/UX designing software like figma'
-   },
    {
        id:2,
        image:'https://media.istockphoto.com/id/1304570729/vector/front-end-development-concept-vector-flat-graphic-design-illustration.jpg?s=612x612&w=0&k=20&c=0lpu0j-4FbuoA7xpGzt9apKZeI5F9KlNNe0qRYxjUYs=',
@@ -126,32 +129,44 @@ export const workDetail=[
 export const portfolio=[
    {
        id:1,
-       title:'Food Delivery UI/UX',
-       type:'ui/ux',
-       desc:"App Build using React native and compaitable for Android and IOS",
-       imageUrl:"https://cdn.dribbble.com/users/4189231/screenshots/17343305/media/202173138f9504c2eacd16e70698312c.png?compress=1&resize=400x300"
-   },
-   {
-       id:4,
-       title:'Funny Website',
+       title:'Floranza',
        type:'website',
-       desc:"App Build using React native and compaitable for Android and IOS",
-       imageUrl:"https://miro.medium.com/max/1400/0*GWvV5kcuVATUfs2r.png"
+       desc:"An e-commerce platform that showcases a variety of flowers, allowing users to easily explore and purchase their favorite flowers.",
+       imageUrl: Floranza,
+       link: "https://flower-shop-beige.vercel.app/"
    },
    {
        id:2,
-       title:'Business Listing App',
-       type:'mobile',
-       desc:"App Build using React native and compaitable for Android and IOS",
-       imageUrl:"https://www.radiustheme.com/wp-content/uploads/2022/05/Directory-app.png"
+       title:'Music Player',
+       type:'website',
+       desc:"Allows users to play, pause, skip tracks and manage playlists. It features an interactive interface for browsing, selecting songs and offering a seamless ",
+       imageUrl: Music,
+       link: "https://music-player-pi-two.vercel.app/"
    },
    {
        id:3,
-       title:'Food Delivery UI/UX',
-       type:'ui/ux',
-       desc:"App Build using React native and compaitable for Android and IOS",
-       imageUrl:"https://cdn.dribbble.com/users/2892962/screenshots/14273462/nlytical_mockup_4x.png"
+       title:'World Tour',
+       type:'website',
+       desc:"Allows users to discover an mark their favorite places. Simply choose a location and place a marker to pinpointspecific spots",
+       imageUrl: World,
+       link: "https://worldtour-woad.vercel.app/"
    },
+   {
+    id:4,
+    title:'Your picture to picture web',
+    type:'website',
+    desc:"Allows users to discover an mark their favorite places. Simply choose a location and place a marker to pinpointspecific spots",
+    imageUrl: Picture,
+    link: "https://picture-in-picture-brown.vercel.app/"
+},
+{
+    id:5,
+    title:'Events',
+    type:'website',
+    desc:"Allows users to discover an mark their favorite places. Simply choose a location and place a marker to pinpointspecific spots",
+    imageUrl: Events,
+    link: "https://countdown-ten-sigma.vercel.app/"
+}
 
    
 ]
@@ -159,19 +174,15 @@ export const portfolio=[
 export const CompanyImage=[
    {
        id:1,
-       imageUrl:cognizantLogo
+       imageUrl:GenextF
    },
    {
-       id:1,
-       imageUrl:wellsLogo
+       id:2,
+       imageUrl:Odesco
    },
    {
-       id:1,
-       imageUrl:aflacLogo
-   },
-   {
-       id:1,
-       imageUrl:wiuLogo
+       id:3,
+       imageUrl:GenextIt
    }
 ]
 

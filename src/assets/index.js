@@ -28,6 +28,7 @@ import instagram from './Instagram.png'
 import facebook from './Facebook.png'
 import linkdin from './LinkedIn.png'
 import hamma from './hamma.jpg'
+import hamma2 from './hamma2.png'
 
 
 
@@ -53,6 +54,7 @@ export {
     wave,
     wave1,
     robo,
-    hamma
+    hamma,
+    hamma2
 
 }
